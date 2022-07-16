@@ -1,1 +1,4 @@
-Thumbs.db tmp/ *_old *_backup
+Thumbs.db 
+tmp/ 
+*_old 
+*_backup
