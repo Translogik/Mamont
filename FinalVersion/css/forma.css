@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background:url(../img/fon.png) repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+body {
+	width:720px;
+	margin:10px auto;
+	position:relative;
+	background:#fff;
+	height:100%;
+	border-radius:10px;
+	border:solid 1px #FFF;
+}
+#forma1{
+	width:720px;
+	padding-top:25px;
+	border-radius:7px;
+	border:solid 1px #FFF;
+}
+h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	margin:0px 0 20px 0;
+	
+}
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-bottom:-50px;
+	display:inline-block;
+	
+}
+h2 span.blu{
+	display:inline-block;
+	
+}
+.floleft{
+	width:260px;
+	float:left;
+	text-align:right;
+	height:420px;
+}
+.floright{
+	float:right;
+	width:410px;
+	border-left:solid 1px #eee;
+	padding-left:30px;
+	margin-bottom:20px;
+}
+.pod{
+	color:#999;
+	font-size:10px;
+	margin-bottom:10px;
+}
+span{
+	color:#F00;
+}
+.blu{
+	color:#369;
+}
+button{
+	width:111px;
+	height:40px;
+	border:none;
+	background:url(../img/Shape28copy3.png);
+	opacity:0.9;
+	color:#FFF;
+	cursor:pointer;
+}
+button:active{
+	opacity:1;
+}
+a{
+	color:#369;
+	text-decoration:none;
+	border-bottom:dotted 1px;
+	margin-left:10px;
+}
+#dop{
+	width:720px;
+	display:none;
+	height:400px;
+}
+#footerform{
+	height:23px;
+	width:720px;
+	background:#999;
+	margin-top:400px;
+	color:#FFF;
+	padding-top:7px;
+	padding-left:-20px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom:solid 1px #FFF;
+}
+#close{
+	position:absolute;
+	left:690px;
+	top:10px;
+	cursor:pointer;
+}
+input[type="text"]{
+	width:40%;
+}
+input.text{
+	width:70%;
+}
+select{
+	font-family:Verdana, Geneva, sans-serif;
+	width:40%;
+}
+input[type="checkbox"]{
+	vertical-align:middle;
+	margin-right:20px;
+}
+#dop p{
+	clear:both;
+	margin-left:310px;
+	margin-bottom:20px;
+	margin-top:-20px;
+}
+.floright p{
+	margin-left:35px;
+}
+#dop .floleft{
+	line-height:46px;
+}
+.rovn{
+	height:40px;
+	margin-bottom:10px;
+}
+.rovn.menu{
+	margin:5px 0 10px 0;
+}
+.rovn.menu.rt{
+	margin-right:10px;
+}
+.rovn.niz{
+	margin-top:10px;
+}
+.rovn.menu.niz{
+	margin-top:0px;
+}

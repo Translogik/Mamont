@@ -1,0 +1,103 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Документ без названия</title>
+<link rel="stylesheet" type="text/css" href="css/forma.css" />  
+</head>
+
+<body>
+<div id="forma1">
+    <h1><span class="blu">Заказать магазин</span></h1>
+    	<div class="floleft">
+        <div class="rovn menu">Название Компании: *</div>
+        <div class="rovn menu rt">Контактное лицо:</div>
+        <div class="rovn menu" >Контактная эл.почта:<span>*</span></div>
+        <div class="rovn menu rt">Контактный телефон:</div>
+        </div>
+        <div class="floright">
+        <form>
+        <div class="rovn">
+        <input type="text" class="text">
+        <div class="pod">Пример: ИП Иванов</div>
+        </div>
+        <div class="rovn">
+        <input type="text" class="text">
+        <div class="pod">Пример: Иванов Иван Иванович</div>
+        </div>
+        <div class="rovn">
+        <input type="text" class="text">
+        <div class="pod">Пример: info@vistaplus.ru</div>
+        </div>
+        </form>
+        <input type="tel" class="text">
+        <div class="pod"><span>Сообщение об ошибке, Пример: 8(495)965-0000</span></div>
+        <input type="checkbox" id="check1"><label for="check1"><span class="blu">Магазин за пять дней</span></label>
+        <p>— Адрес магазина Москва и МО<br>
+— Наличие размеров помещения<br>
+— Оборудование из наличия на складе<br>
+— Помещение готово к монтажу
+</p>
+		<button type="button">Отправить</button>
+        <script>function showTooltip()
+{
+var myDiv = document.getElementById('dop');
+if(myDiv.style.display == 'none')
+{
+myDiv.style.display = 'block';
+} else {
+myDiv.style.display = 'none';
+}
+return false;
+}</script>
+<a href='javascript:;' onclick=showTooltip()> ▼ Дополнительно </a>
+		</div>
+	<div id="dop">
+        <h2><span class="blu">Дополнительная информация</span></h2>
+        		<p>— Сократит время обработки заявки<br>
+					— Ускорит работу менеджера</p>
+            	<div class="floleft">
+                <div class="rovn menu niz">Площадь помещения, м<sup>2</sup>:</div>
+                <div class="rovn menu niz">Тип обслуживания:</div>
+                <div class="rovn menu niz">Профиль магазина:</div>
+                <div class="rovn menu niz">Когда надо сдать магазин:</div>
+                <div class="rovn menu niz">Прикрепить фаил:</div>
+                </div>
+                <div class="floright">
+                <form><div class="rovn niz">
+                <input type="text">
+                <div class="pod">Пример: 240</div>
+                </div>
+                <div class="rovn niz">
+				<select>
+                  <option>Прилавочный</option>
+                  <option>ХЗ</option>
+                  <option>pro.BAH</option>
+				</select>
+                <div class="pod">Выберите из списка</div>
+                </div>
+                <div class="rovn niz">
+                <select>
+                  <option>Автозапчасти</option>
+                  <option>ХЗ</option>
+                  <option>pro.BAH</option>
+				</select>
+                <div class="pod">Выберите из списка</div>
+                </div>
+                <div class="rovn niz">
+                <input type="text">
+                <div class="pod">Выберите дату</div>
+                </div>
+                <input type="file">
+                <div class="pod">Прикрепите схему помещения с актуальными размерами.<br>Допускаются файлы gif, jpeg, jpg, zip, png.</div>
+                <button type="button">Отправить</button>
+                </form>
+                </div>
+	</div>
+</div>
+<div id="footerform">
+8(495)228-09-19 :: 8(495)545-01-00 :: с 9:00 до 18:00
+</div>
+<div id="close"><img src="img/Close copy.png"></div>
+</body>
+</html>

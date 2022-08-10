@@ -1,0 +1,51 @@
+img{
+	border:none;
+}
+.header-moscav-phone{
+	margin-bottom:20px;
+}
+.header-krasnodar-phone{
+	margin-bottom:20px;
+}
+#footer{
+	margin:100px 0 0 -40px;
+}
+.footerl{
+	width:171px;
+}
+.footerr{
+	width:190px;
+}
+#footer1{
+	margin:20px 0 0 -40px;
+}
+#raz{
+	margin-top:50px;
+	height:2px;
+}
+h2{
+	margin-top:18px;
+}
+h1{
+	margin-top:20px;
+}
+.log{
+	cursor:pointer;
+}
+li{
+	list-style:none;
+	list-style-image:none;
+	padding:2px;
+	vertical-align:top;
+}
+.magazine img{
+	float:left;
+}
+#example-two .nav .nav-wone{
+	margin:0 30px 0 20px;
+	height:26px;
+	padding-top:3px;
+}
+#catalog{
+	height:550px;
+}
