@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background:url(../img/html-bg.jpg) repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+body {
+	width:720px;
+	margin:0 auto;
+	position:relative;
+	background:#fff;
+	height:100%;
+}
+#forma1{
+	width:720px;
+}
+.floleft{
+	width:260px;
+	float:left;
+	text-align:right;
+	line-height:50px;
+	height:420px;
+}
+.floright{
+	float:right;
+	width:410px;
+	border-left:solid 1px #eee;
+	padding-left:30px;
+}
+.pod{
+	color:#999;
+	font-size:10px;
+	margin-bottom:10px;
+}
+span{
+	color:#F00;
+}
+.blu{
+	color:#369;
+}
+h2{
+	text-align:center;
+}
+button{
+	width:111px;
+	height:40px;
+	border:none;
+	background:url(../img/Shape%2028%20copy%203.png);
+	opacity:0.9;
+	color:#FFF;
+}
+button:active{
+	opacity:1;
+}
+a{
+	color:#369;
+	text-decoration:none;
+	border-bottom:dotted 1px;
+}
+#dop{
+	width:720px;
+	display:none;
+}
+#footerform{
+	height:23px;
+	width:720px;
+	background:#999;
+	margin-top:380px;
+	color:#FFF;
+	padding-top:7px;
+	padding-left:-20px;
+	
+}
+#close{
+	position:absolute;
+	left:690px;
+	top:10px;
+	cursor:pointer;
+}
